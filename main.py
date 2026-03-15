@@ -1,4 +1,4 @@
-#ESERCIZIO 1
+#ESERCIZIO 1 punto 1
 def is_pari(n):
    '''controllo se il numero è pari'''
 
