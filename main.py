@@ -8,10 +8,7 @@ def is_pari(n):
       return False
 
 
-result = is_pari(4)
-print(result)
-result = is_pari(5)
-print(result)
+
 #ESERCIZIO 1 punto 2
 def chiedi_numero_positivo():
     while True:
@@ -32,8 +29,10 @@ print("Hai inserito:", n)
 def genera_lista(n):
     '''genera lista da n'''
 
-    if n%2 = 0:
+    if n%2 == 0:
       return n%2
-   else
+    else:
       return (n*3)+1
+
+# ESERCIZIO 1 PUNTO 3
      
