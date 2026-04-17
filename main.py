@@ -25,14 +25,26 @@ def chiedi_numero_positivo():
             
 n = chiedi_numero_positivo()
 print("Hai inserito:", n)
+
 #ESERCIZIO 1 punto 3
 def genera_lista(n):
     '''genera lista da n'''
+    lista = [n]
+    while n != 1 and len(lista) < 100:
+         if n%2 == 0:
+            n = n//2
+         else:
+            n = (n*3)+1
+        
+         lista.append(n)
+    return lista
 
-    if n%2 == 0:
-      return n%2
-    else:
-      return (n*3)+1
+risultato = genera_lista(n)
+print('Sequenza:',risultato)
 
-# ESERCIZIO 1 PUNTO 3
+
+# ESERCIZIO 1 punto 4
+
+def analizza_sequenza(lista)
+
      
