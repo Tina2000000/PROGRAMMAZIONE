@@ -29,22 +29,31 @@ print("Hai inserito:", n)
 #ESERCIZIO 1 punto 3
 def genera_lista(n):
     '''genera lista da n'''
-    lista = [n]
-    while n != 1 and len(lista) < 100:
+    risultato = [n]
+    while n != 1 and len(risultato) < 100:
          if n%2 == 0:
             n = n//2
          else:
             n = (n*3)+1
         
-         lista.append(n)
-    return lista
+         risultato.append(n)
+    return risultato
 
-risultato = genera_lista(n)
-print('Sequenza:',risultato)
+lista = genera_lista(n)
+print('Sequenza:',lista)
 
 
 # ESERCIZIO 1 punto 4
 
-def analizza_sequenza(lista)
+def analizza_sequenza(lista):
+    risultato = genera_lista(n)
+    massimo = max(risultato)
+    lunghezza = len(risultato)
+    somma = sum(risultato)
+    return massimo, lunghezza, somma
 
-     
+max_val, lung, totale = analizza_sequenza(lista)
+
+print(f"'Valore massimo:',{max_val}")
+print(f"'Lunghezza lista:',{lung}")
+print(f"'Somma dei valori nella lista:',{totale}")
