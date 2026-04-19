@@ -57,3 +57,13 @@ max_val, lung, totale = analizza_sequenza(lista)
 print(f"'Valore massimo:',{max_val}")
 print(f"'Lunghezza lista:',{lung}")
 print(f"'Somma dei valori nella lista:',{totale}")
+
+def ricerca(lista):
+    divisibili_per_5 = [x for x in lista if x % 5 == 0]
+    if divisibili_per_5:
+       print( f"{divisibili_per_5}")
+    else:
+        print('Nessun numero divisibile per 5')
+
+ricerca(lista)
+ 
