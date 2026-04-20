@@ -33,10 +33,10 @@ print(contatore)
 
 lista_parole = testo.split()
 
-contatore = 0
+contatore= 0
 for parola in lista_parole:
     if len(parola) > 0:
-        contatore = contatore + 1
+        contatore= contatore + 1
 
 print(contatore)
 
@@ -44,14 +44,18 @@ print(contatore)
 
 # Risolvendo parte 3 esercizio 2
 
-lista_caratteri = testo.split()
+
+
+alfabeto_numeri = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
 contatore = 0
-for carattere in lista_caratteri
-    if len(carattere)=1
+for carattere in testo:
+    if carattere in alfabeto_numeri:
        contatore = contatore + 1
 
-# Risolvendo parte 8 esercizio 2
+print(contatore)
+
+# Risolvendo parte 4 esercizio 2
 
 
 

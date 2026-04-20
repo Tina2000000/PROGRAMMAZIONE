@@ -1,5 +1,5 @@
 #ESERCIZIO 1 punto 1
-def is_pari(n):
+def is_#pari(n):
    '''controllo se il numero è pari'''
 
    if n%2 == 0:
@@ -46,10 +46,11 @@ print('Sequenza:',lista)
 # ESERCIZIO 1 punto 4
 
 def analizza_sequenza(lista):
-    risultato = genera_lista(n)
+   
     massimo = max(risultato)
     lunghezza = len(risultato)
     somma = sum(risultato)
+    
     return massimo, lunghezza, somma
 
 max_val, lung, totale = analizza_sequenza(lista)
@@ -66,4 +67,12 @@ def ricerca(lista):
         print('Nessun numero divisibile per 5')
 
 ricerca(lista)
- 
+
+#ESERCIZIO 1 punto 6
+
+def main()
+    while True:
+        try:
+            quanti = int(input('Quanti numeri vuoi testare?'))
+            if
+            quanti > 0:break
